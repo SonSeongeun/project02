@@ -1,0 +1,74 @@
+.top {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.m_wrap , .contents {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.w_text, .c_text {
+    width: 18%;
+    text-align: center;
+}
+
+.w_text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.c_text {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.v_text {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 98%;
+    padding: 5px;
+}
+
+.mob {
+    display: none;
+}
+
+.b_wrap {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+button {
+    font-size: 25px;
+    margin: 20px;
+    width: 20%;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.addbt {
+    width: 15%;
+    margin-top: 30px;
+    position: absolute;
+    right: 20px;
+}
+
+input {
+    font-size: 25px;
+    height: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" media="all and (min-width:1000px)" rel="stylesheet" type="text/css"/>
+    <link href="my.css" media="all and (min-width:1px) and (max-width:999px)" rel="stylesheet" type="text/css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="top">항목 상세 정보</div>
+    <div>
+        <div class="v_text">순번: 1</div>
+        <div class="v_text">이름: 애플망고치즈설빙</div>
+        <div class="v_text">가격: 13900</div>
+        <div class="v_text">선호도: ★★★★★</div>
+        <div class="v_text">제작 난이도: ★</div>
+    </div>
+
+    <div class="b_wrap">
+        <button onclick="location.href='★★★★★여기에edit.html링크넣기★★★★★'">Edit</button>
+        <button onclick="con()">Delete</button>
+    </div>
+
+    <script>
+        function con() {
+            if (confirm("게시물을 삭제할까요?")) {
+                location.href='★★★★★여기에index.html링크넣기★★★★★';
+            }
+        }
+    </script>
+
+
+    <div class="foot">
+        <span class="pcpc">접속환경: PC</span>
+        <span class="mob">접속환경: Mobile</span>
+    </div>
+</body>
+</html>

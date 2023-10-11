@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" media="all and (min-width:1000px)" rel="stylesheet" type="text/css"/>
+    <link href="my.css" media="all and (min-width:1px) and (max-width:999px)" rel="stylesheet" type="text/css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="top">항목 수정하기</div>
+    <form name="ff">
+        <div class="v_text">순번: <input name="f1" type="text" value="1"/></div>
+        <div class="v_text">이름: <input name="f2" type="text" value="애플망고치즈설빙"/></div>
+        <div class="v_text">가격: <input name="f3" type="text" value="13900"/></div>
+        <div class="v_text">선호도: <input name="f4" type="text" value="★★★★★"/></div>
+        <div class="v_text">제작 난이도: <input name="f5" type="text" value="★"/></div>
+        </form>
+
+    <div class="b_wrap">
+        <button onclick="con()">수정</button>
+    </div>
+
+    <script>
+        function con() {
+            if(document.ff.f1.value==""||document.ff.f2.value==""||document.ff.f3.value==""||document.ff.f4.value==""||document.ff.f5.value==""){
+                alert("모든 항목을 입력해주세요");
+            }else{
+                if(confirm("게시물을 수정할까요?")){
+                    location.href='★★★★★여기에index.html링크넣기★★★★★';
+                }
+            }
+        }
+    </script>
+
+
+    <div class="foot">
+        <span class="pcpc">접속환경: PC</span>
+        <span class="mob">접속환경: Mobile</span>
+    </div>
+</body>
+</html>
